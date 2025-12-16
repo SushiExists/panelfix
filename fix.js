@@ -2,7 +2,7 @@
     'use strict';
 
     // senses if at ep
-    if (pathname.startsWith('/title/')) {
+    // if (pathname.startsWith('/title/')) {
         // sets interval for fixing links
         setInterval(() => { 
             document.querySelectorAll('img').forEach(img => { 
@@ -12,5 +12,5 @@
                 } 
             }); 
         }, 2000);
-    }
+   // }
 })();
