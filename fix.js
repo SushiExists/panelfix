@@ -1,3 +1,5 @@
+window.alert("Testing");
+
 window.addEventListener ('DOMContentLoaded', () => { 
   document.querySelectorAll('img').forEach(img => { 
     if (img.src.includes('//k') && img.src.includes('.mb')) { 
